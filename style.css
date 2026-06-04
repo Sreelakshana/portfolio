@@ -1,0 +1,224 @@
+/* ===== GLOBAL ===== */
+body {
+    margin: 0;
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+
+    background: radial-gradient(circle at top, #0b1020, #070a12);
+    color: #e5e7eb;
+    line-height: 1.6;
+}
+
+/* ===== HERO ===== */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+
+    background: linear-gradient(135deg, #1e1b4b, #0f172a);
+    border-bottom: 1px solid #1f2937;
+}
+
+.hero h1 {
+    font-size: 52px;
+    margin: 0;
+    color: #60a5fa;
+    letter-spacing: 1px;
+}
+
+.typing {
+    font-size: 20px;
+    color: #c7d2fe;
+}
+
+/* ===== BUTTONS ===== */
+.buttons {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.buttons a {
+    padding: 10px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+
+    background: #111827;
+    color: #e5e7eb;
+    border: 1px solid #1f2937;
+
+    transition: 0.3s ease;
+}
+
+.buttons a:hover {
+    background: #6366f1;
+    color: white;
+    transform: translateY(-3px);
+}
+
+/* Resume highlight */
+.resume {
+    background: #f59e0b !important;
+    color: #0b0f1a !important;
+    border: none !important;
+}
+
+/* ===== SECTIONS ===== */
+.section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.section h2 {
+    font-size: 22px;
+    color: #93c5fd;
+    margin-bottom: 15px;
+}
+
+/* ===== ABOUT ===== */
+.about-text {
+    font-size: 17px;
+    color: #cbd5e1;
+    letter-spacing: 0.3px;
+}
+
+.about-text span {
+    color: #818cf8;
+    font-weight: 600;
+}
+
+/* ===== SKILLS ===== */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills span {
+    background: rgba(17, 24, 39, 0.7);
+    border: 1px solid #1f2937;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    color: #cbd5e1;
+    transition: 0.3s;
+}
+
+.skills span:hover {
+    background: #6366f1;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* ===== PROJECT CARDS (FIXED - NO DUPLICATE) ===== */
+.card {
+    background: rgba(17, 24, 39, 0.75);
+    border: 1px solid #1f2937;
+
+    padding: 22px;
+    margin-top: 15px;
+    border-radius: 14px;
+
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    border-color: #6366f1;
+    box-shadow: 0 10px 25px rgba(99, 102, 241, 0.15);
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* TAG */
+.tag {
+    font-size: 13px;
+    color: #818cf8;
+    margin-top: 6px;
+}
+
+/* DESCRIPTION */
+.desc {
+    display: none;
+    margin-top: 10px;
+    color: #94a3b8;
+    line-height: 1.6;
+}
+
+.card.active .desc {
+    display: block;
+}
+
+/* TECH STACK */
+.tech {
+    margin-top: 12px;
+}
+
+.tech span {
+    display: inline-block;
+    font-size: 12px;
+    padding: 5px 10px;
+    margin: 3px;
+
+    background: #0f172a;
+    border: 1px solid #1f2937;
+    border-radius: 20px;
+    color: #cbd5e1;
+}
+
+/* ===== CONTACT ===== */
+#contact {
+    text-align: center;
+    font-size: 24px;
+    color: #60a5fa;
+}
+/* CONTACT CARD */
+.contact-card {
+    background: rgba(17, 24, 39, 0.75);
+    border: 1px solid #1f2937;
+    border-radius: 14px;
+    padding: 20px;
+
+    max-width: 500px;
+    margin: auto;
+
+    text-align: left;
+    transition: 0.3s;
+}
+
+/* hover effect */
+.contact-card:hover {
+    transform: translateY(-5px);
+    border-color: #6366f1;
+    box-shadow: 0 10px 25px rgba(99, 102, 241, 0.15);
+}
+
+/* labels */
+.contact-card p {
+    margin: 15px 0 5px;
+    color: #93c5fd;
+    font-weight: 600;
+}
+
+/* links */
+.contact-card a {
+    display: inline-block;
+    color: #cbd5e1;
+    text-decoration: none;
+    font-size: 14px;
+
+    transition: 0.3s;
+}
+
+.contact-card a:hover {
+    color: #6366f1;
+    transform: translateX(5px);
+}
